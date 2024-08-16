@@ -1,0 +1,198 @@
+:root {
+    color-scheme: light dark;
+    --cubic: cubic-bezier(0.5, 0, 0.25, 1.25);
+}
+
+* {
+    transition: all 0.2s var(--cubic) 0s;
+}
+
+button {
+    backdrop-filter: blur(8px);
+    border: 2px solid #888;
+    border-radius: 8px;
+    background-color: light-dark(#000a, #fffa);
+    color: light-dark(#fff, #000);
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+}
+
+body > button {
+    position: fixed;
+    bottom: var(--padding);
+    right: var(--padding);
+}
+
+h1 > button {
+    float: right;
+    position: relative;
+    top: 8px;
+}
+
+body {
+    --font-size: 16px;
+    --padding: 16px;
+    max-width: 840px;
+    color: light-dark(#000, #fff);
+    background-color: light-dark(#fff, #000);
+    margin: 8px auto;
+    font-size: var(--font-size);
+    line-height: 1.5;
+    font-family: "Ubuntu", sans-serif;
+    text-align: justify;
+    & > div:first-child {
+        margin: 0px var(--padding);
+    }
+}
+
+a {
+    color: light-dark(#08f, #4af);
+    &:visited {
+        color: light-dark(#80f, #a4f);
+    }
+}
+
+h1 {
+    padding-top: calc(var(--font-size) * 2);
+    padding-bottom: calc(var(--font-size) / 2);
+    border-bottom: 2px solid #8884;
+    margin-bottom: calc(var(--font-size) * 1.5);
+}
+
+code {
+    font-size: smaller;
+    padding: 2px 4px;
+    background-color: #8884;
+    border: 2px solid #8888;
+    border-radius: 4px;
+}
+
+ol > li::marker {
+    font-family: "Ubuntu Mono", monospace;
+    font-style: italic;
+}
+
+ul > li::marker {
+    content: "–  ";
+}
+
+li::marker {
+    color: light-dark(#666, #aaa)
+}
+
+img {
+    border-radius: calc(var(--font-size) / 2);
+    filter: invert(0) hue-rotate(0deg);
+}
+
+html[style="color-scheme: dark;"] img[width="100%"] {
+    filter: invert(1) hue-rotate(180deg);
+}
+
+table {
+    width: 100%;
+    border-spacing: 0px;
+    margin-bottom: 128px;
+    white-space: nowrap;
+}
+
+th, td {
+    --border: 2px solid light-dark(#aaa, #444);
+    border-top: var(--border);
+    border-left: var(--border);
+    padding: calc(var(--font-size) / 2);
+}
+
+tr {
+    transition: background-color 0.1s ease-out 0s;
+    &:nth-child(odd):not(:first-child) {   
+        background-color: #8882;
+    }
+    & td {
+        &:first-child {
+            text-align: center;
+        }
+        &:last-child {
+            border-right: var(--border)
+        }
+        &:nth-child(2) {
+            width: var(--img-w);
+        }
+    }
+    &:hover:not(:first-child) {
+        background-color: #8884;
+    }
+    &:last-child td {
+        border-bottom: var(--border);
+        &:first-child {
+            border-bottom-left-radius: calc(var(--font-size) / 2);
+        }
+        &:last-child {
+            border-bottom-right-radius: calc(var(--font-size) / 2);
+        }
+    }    
+}
+
+th {
+    text-align: center;
+    background-color: #8886;
+    &:first-child {
+        border-top-left-radius: calc(var(--font-size) / 2);
+    }
+    &:last-child {
+        border-top-right-radius: calc(var(--font-size) / 2);
+        border-right: var(--border);
+    }
+}
+
+:root {
+    --img-w: 128px;
+}
+table td a {
+    & label {
+        position: relative;
+        float: right;
+        padding: 2px 4px;
+        background-color: light-dark(#fffa, #000a);
+        border: 2px solid #8888;
+        border-radius: 4px;
+        cursor: pointer;
+        backdrop-filter: blur(8px);
+        box-shadow: 0px 0px 8px 0px light-dark(#4448, #000f);
+        z-index: 8;
+        margin-bottom: -32px;
+        bottom: 28px;
+        left: 2px;
+    }
+    & img {
+        width: var(--img-w);
+        transform: scale(1);
+        position: relative;
+        display: block;
+        box-shadow: 0px 0px 0px 0px #8880;
+        z-index: 7;
+        transform-origin: left;
+        &:hover {
+            --scale: 3;
+            transform: scale(var(--scale));
+            box-shadow: 0px 0px 16px 0px light-dark(#4448, #000f);
+            z-index: 15;
+            border-radius: calc(var(--font-size) / 2 / var(--scale));
+        }
+    }
+}
+
+#tbl-container {
+    width: calc(100% - var(--padding));
+    padding-left: var(--padding);
+    overflow-x: auto;
+    & h1 {
+        position: sticky;
+        left: 0px;
+        margin-right: var(--padding);
+    }
+    & table {
+        padding-right: var(--padding);
+    }
+}

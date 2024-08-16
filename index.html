@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>pairing-telink</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="./style.css"/>
+        <link rel="stylesheet" href="./fonts.css">
+    </head>
+    <body>
+        <div>
+            <h1 id="the-problem">The Problem<button>change</button></h1>
+            These damn Telink Wireless Receivers don't have pairing software, or any answers on how to pair them online.
+            If you buy a keyboard and mouse, they'll come with two separate adapters, and now it's a pain to remember which one
+            is which. Or worse, you're running low on USB ports and you just want one receiver for two products, like Logitech.
+            <br><br>
+            <img width="256px" src="./img/nano.jpg"/>
+            <br><br>
+            However, all the answers are right in the poorly translated manual you got with your device.
+            <br><br>
+            <h1 id="the-solution">The Solution</h1>
+            <ol>
+                <li>Turn off the device</li>
+                <li>Unplug the receiver</li>
+                <li>Turn on the device</li>
+                <li>Follow any <a href="#additional-instructions">additional instructions</a></li>
+                <li>Plug in the receiver</li>
+            </ol>
+            <b>Note:</b> You can only pair one device at a time. Please repeat all above instructons for each device you have.
+            <br><br>
+            <h1 id="my-setup">My Setup</h1>
+            <ul>
+                <li>
+                    <a href="https://linux-hardware.org/index.php?id=usb:248a-8327">248a:8327</a> Maxxter Telink Wireless Receiver
+                    <ul>
+                        <li><code>lsusb</code> will only display "Maxxter Wireless Receiver</li>
+                        <li>Mouse settings in KDE will display "Telink Wireless Receiver Mouse" and "Telink Wireless Receiver Keyboard" separately</li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="https://www.amazon.com/dp/B08SK9QT1T" target="_blank">Arteck 2.4G keyboard</a>
+                </li>
+                <li>
+                    <a href="https://www.amazon.com/dp/B082XWXTDV" target="_blank">Arteck 2.4G mouse</a>
+                </li>
+            </ul>
+            <br><br>
+            <h1 id="the-manual">The Manual</h1>
+            <img src="./img/man-kb.jpg" width="100%"/>
+            <img src="./img/man-m.jpg" width="100%"/>
+            <br><br>
+        </div>
+        <button>change</button>
+        <script src="./script.js"></script>
+        <div id="tbl-container">
+            <h1 id="additional-instructions">Additional Instructions</h1>
+            If your model is not listed, try any of the following instructions and open an
+            <a href="https://github.com/VoxelPrismatic/pairing-telink/issues">issue</a>
+            <table>
+                <tr>
+                    <th>unit</th>
+                    <th>model</th>
+                    <th>pair 2.4G</th>
+                    <th>pair BT</th>
+                    <th>pair duration</th>
+                </tr>
+                <tr>
+                    <td>kb</td>
+                    <td>
+                        <a href="https://fccid.io/2AKHJ-HW087/Users-Manual/user-manual-3329964" target="_blank">
+                            <img src="./img/hw087.jpg"/>
+                            <label>HW087</label>
+                        </a>
+                    </td>
+                    <td>press <code>fn</code>+<code>esc</code> for 2s</td>
+                    <td><s>nil</s></td>
+                    <td>~</td>
+                </tr>
+                <tr>
+                    <td>kb</td>
+                    <td>
+                        <a href="https://fccid.io/2AKHJ-HD086S/Users-Manual/User-manual-3503602" target="_blank">
+                            <img src="./img/hd086s.jpg"/>
+                            <label>HD086s</label>
+                        </a>
+                    </td>
+                    <td>press <code>fn</code>+<code>1</code>; then <code>fn</code>+<code>c</code></td>
+                    <td>press <code>fn</code>+<code>2</code>; then <code>fn</code>+<code>c</code></td>
+                    <td>~</td>
+                </tr>
+                <tr>
+                    <td>kb</td>
+                    <td>
+                        <a href="https://fccid.io/2AKHJ-HD192/Users-Manual/User-manual-3534559" target="_blank">
+                            <img src="./img/hd192.jpg"/>
+                            <label>HD192</label>
+                        </a>
+                    </td>
+                    <td>press <code>fn</code>+<code>1</code>; then <code>fn</code>+<code>c</code></td>
+                    <td>press <code>fn</code>+<code>2</code>; then <code>fn</code>+<code>c</code></td>
+                    <td>~</td>
+                </tr>
+                <tr>
+                    <td>kb</td>
+                    <td>
+                        <a href="https://fccid.io/2AKHJ-HW098S-2/Users-Manual/UserManual-5988955" target="_blank">
+                            <img src="./img/hw098s-2.jpg"/>
+                            <label>HW098S-2</label>
+                        </a>
+                    </td>
+                    <td><i>turn on</i></td>
+                    <td><s>nil</s></td>
+                    <td>~</td>
+                </tr>
+                <tr>
+                    <td>kb</td>
+                    <td>
+                        <a href=https://fccid.io/2AKHJ-HW305-3/Users-Manual/User-Manual-5108669" target="_blank">
+                            <img src="./img/hw305.jpg"/>
+                            <label>HW305</label>
+                        </a>
+                    </td>
+                    <td>press <code>esc</code>+<code>q</code></td>
+                    <td><s>nil</s></td>
+                    <td>~</td>
+                </tr>
+                <tr>
+                    <td>kb</td>
+                    <td>
+                        <a href="https://fccid.io/2AKHJ-HW305-3/Users-Manual/User-Manual-5108669" target="_blank">
+                            <img src="./img/hw305-2.jpg"/>
+                            <label>HW305-2</label>
+                        </a>
+                    </td>
+                    <td>press <code>esc</code>+<code>q</code></td>
+                    <td><s>nil</s></td>
+                    <td>~</td>
+                </tr>
+                <tr>
+                    <td>kb</td>
+                    <td>
+                        <a href="https://fccid.io/2AKHJ-HW305-3/Users-Manual/User-Manual-5108669" target="_blank">
+                            <img src="./img/hw305-3.jpg"/>
+                            <label>HW305-3</label>
+                        </a>
+                    </td>
+                    <td>press <code>esc</code>+<code>q</code></td>
+                    <td><s>nil</s></td>
+                    <td>~</td>
+                </tr>
+                <tr>
+                    <td>kb</td>
+                    <td>
+                        <a href="https://fccid.io/2AC9LHW156/User-Manual/15-HW156-K-UserMan-pdf-2951661" target="_blank">
+                            <img src="./img/hw156.jpg"/>
+                            <label>HW156</label>
+                        </a>
+                    </td>
+                    <td>press <code>esc</code>+<code>k</code></td>
+                    <td><s>nil</s></td>
+                    <td>~</td>
+                </tr>
+                <tr>
+                    <td>kb</td>
+                    <td>
+                        <a href="https://fccid.io/2AKHJ-HD323/Users-Manual/User-Manual-5915025" target="_blank">
+                            <img src="./img/hd323.jpg"/>
+                            <label>HD323</label>
+                        </a>
+                    </td>
+                    <td>press <code>fn</code>+<code>q</code></td>
+                    <td>
+                        bt3.0 - <code>fn</code>+<code>w</code><br>
+                        bt5.0 - <code>fn</code>+<code>e</code>
+                    </td>
+                    <td>~</td>
+                </tr>
+                <tr>
+                    <td>kb</td>
+                    <td>
+                        <a href="https://fccid.io/2AKHJ-HD315/User-Manual/User-manual-6123973" target="_blank">
+                            <img src="./img/hw315.jpg"/>
+                            <label>HW315</label>
+                        </a>
+                    </td>
+                    <td>press <code>esc</code>+<code>=</code><sup><a href="#footnotes">[1]</a></sup></td>
+                    <td><s>nil</s></td>
+                    <td>~</td>
+                </tr>
+                <tr>
+                    <td>kb</td>
+                    <td>
+                        <a href="https://fccid.io/2AKHJ-HD246-T02/User-Manual/User-manual-5051012" target="_blank">
+                            <img src="./img/hd246-t02.jpg"/>
+                            <label>HD246-T02</label>
+                        </a>
+                    </td>
+                    <td>press <code>esc</code>+<code>=</code><sup><a href="#footnotes">[1]</a></sup></td>
+                    <td>press <code>BT1</code> in top right for 3s<br>press <code>BT2</code> in top right for 3s</td>
+                    <td>~</td>
+                </tr>
+
+                <!------------------------------------------------------------------------------------------------------------------------------------------------------------>
+                <!------------------------------------------------------------------------------------------------------------------------------------------------------------>
+                <!------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+                <tr>
+                    <td>m</td>
+                    <td>
+                        <a href="https://fccid.io/2AKHJ-MD156/Users-Manual/User-Manual-3540032" target="_blank">
+                            <img src="./img/md156.png"/>
+                            <label>MD156</label>
+                        </a>
+                    </td>
+                    <td>press <code>SCROLL</code>+<code>RIGHT</code><br>until red flashing light</td>
+                    <td>press <code>SCROLL</code>+<code>RIGHT</code><br>until blue flashing light</td>
+                    <td>~</td>
+                </tr>
+                <tr>
+                    <td>m</td>
+                    <td>
+                        <a href="https://office.iclever.com/storage/product/guide/28/17091145593375.pdf" target="_blank">
+                            <img src="./img/md179.jpg"/>
+                            <label>MD179</label>
+                        </a>
+                    </td>
+                    <td>press <code>MIDDLE</code>+<code>RIGHT</code> for 3s</td>
+                    <td>select BT channel;<br>press <code>PAIR</code> for 5s</td>
+                    <td>10s</td>
+                </tr>
+                <tr>
+                    <td>m</td>
+                    <td>
+                        <a href="https://fccid.io/2AKHJMW162/User-Manual/MW162-User-Manual-4141310" target="_blank">
+                            <img src="./img/mw162.jpg"/>
+                            <label>MW162</label>
+                        </a>
+                    </td>
+                    <td><i>turn on</i></td>
+                    <td><s>nil</s></td>
+                    <td>3s</td>
+                </tr>
+            </table>
+            <ol id="footnotes">
+                <li>Double check user manual; image is very blurry</li>
+            </ol>
+        </div>
+    </body>
+</html>
