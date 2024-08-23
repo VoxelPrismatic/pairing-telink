@@ -112,7 +112,7 @@ th, td {
 
 tr {
     transition: background-color 0.1s ease-out 0s;
-    &:nth-child(odd):not(:first-child) {
+    &.odd {
         background-color: #8882;
     }
     & td {
@@ -130,7 +130,7 @@ tr {
     &:hover:not(:first-child) {
         background-color: #8884;
     }
-    &:last-child td {
+    &.last td, &.last th {
         border-bottom: var(--border);
         &:first-child {
             border-bottom-left-radius: calc(var(--font-size) / 2);
@@ -138,6 +138,19 @@ tr {
         &:last-child {
             border-bottom-right-radius: calc(var(--font-size) / 2);
         }
+    }
+
+    td:nth-child(1), th:nth-child(1) {
+        width: 10%;
+    }
+
+    td:nth-child(2), th:nth-child(2) {
+        width: 20%;
+    }
+
+    td:nth-child(3), th:nth-child(3),
+    td:nth-child(4), th:nth-child(4) {
+        width: 35%;
     }
 }
 
@@ -154,9 +167,6 @@ th {
     }
 }
 
-:root {
-    --img-w: 128px;
-}
 table td a {
     & label {
         position: relative;
@@ -174,7 +184,7 @@ table td a {
         left: 2px;
     }
     & img {
-        width: var(--img-w);
+        width: 100%;
         transform: scale(1);
         position: relative;
         display: block;
@@ -202,5 +212,23 @@ table td a {
     }
     & table {
         padding-right: var(--padding);
+    }
+}
+
+#search-container {
+    margin-bottom: var(--font-size);
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: fit-content;
+    display: flex;
+    gap: 8px;
+
+    input[type="text"], select {
+        border: 2px solid #8888;
+        border-radius: 4px;
+        padding: 4px 8px;
+        font-family: "Ubuntu Mono", monospace;
+        background: light-dark(#0001, #fff1);
     }
 }

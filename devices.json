@@ -1,0 +1,205 @@
+[
+    {
+        "unit": "kb",
+        "bt": "~",
+        "ghz": "press `fn`+`esc` for 2s",
+        "manual": "https://fccid.io/2AKHJ-HW087/Users-Manual/user-manual-3329964",
+        "model": "HW087"
+    },
+    {
+        "unit": "kb",
+        "bt": "press `fn`+`2`; then `fn`+`c`",
+        "ghz": "press `fn`+`1`; then `fn`+`c`",
+        "manual": "https://fccid.io/2AKHJ-HD086S/Users-Manual/User-manual-3503602",
+        "model": "HD086s"
+    },
+    {
+        "unit": "kb",
+        "bt": "~",
+        "ghz": "press `esc`+`q`",
+        "manual": "https://fccid.io/2AKHJ-HW305-3/Users-Manual/User-Manual-5108669",
+        "model": "HW305"
+    },
+    {
+        "unit": "kb",
+        "bt": "press `fn`+`2`; then `fn`+`c`",
+        "ghz": "press `fn`+`1`; then `fn`+`c`",
+        "manual": "https://fccid.io/2AKHJ-HD192/Users-Manual/User-manual-3534559",
+        "model": "HD192"
+    },
+    {
+        "unit": "np",
+        "bt": "~",
+        "ghz": "*turn on*",
+        "manual": "https://fccid.io/2akhjhw159/user-manual/15-hw159-userman-r1-4035379",
+        "model": "HW159"
+    },
+    {
+        "unit": "m",
+        "bt": "~",
+        "ghz": "cycle/toggle `MODE` till light flashes\nred (USB-A) or green (USB-C)",
+        "manual": "https://fccid.io/2AKHJ-MD161/User-Manual/User-Manual-5109005",
+        "model": "MD161"
+    },
+    {
+        "unit": "m",
+        "bt": "cycle/toggle `MODE` to BT & press for 5s",
+        "ghz": "press `SCROLL`+`RIGHT` for 3s",
+        "manual": "https://fccid.io/2AKHJ-MD167/User-Manual/User-Manual-5116992",
+        "model": "MD167"
+    },
+    {
+        "unit": "kb",
+        "bt": "~",
+        "ghz": "press `esc`+`q`",
+        "manual": "https://fccid.io/2AKHJ-HW098SL/Users-Manual/Users-Manual-4708398",
+        "model": "HW098s"
+    },
+    {
+        "unit": "kb",
+        "bt": "~",
+        "ghz": "press `esc`+`q`",
+        "manual": "https://fccid.io/2AKHJ-HW098S-2/Users-Manual/UserManual-5988955",
+        "model": "HW098s-2"
+    },
+    {
+        "unit": "kb",
+        "bt": "~",
+        "ghz": "press `esc`+`q`",
+        "manual": "https://fccid.io/2AKHJ-HW305-3/Users-Manual/User-Manual-5108669",
+        "model": "HW305-3"
+    },
+    {
+        "unit": "kb",
+        "bt": "~",
+        "ghz": "press `esc`+`q`",
+        "manual": "https://fccid.io/2AKHJ-HW305-3/Users-Manual/User-Manual-5108669",
+        "model": "HW305-2"
+    },
+    {
+        "unit": "kb",
+        "bt": "bt3.0 - `fn`+`w`\nbt5.0 - `fn`+`e`",
+        "ghz": "press `fn`+`q`",
+        "manual": "https://fccid.io/2AKHJ-HD323/Users-Manual/User-Manual-5915025",
+        "model": "HD323"
+    },
+    {
+        "unit": "kb",
+        "bt": "press `BT1` or `BT2` (in the top right) for 3s",
+        "ghz": "press `esc`+`=`[1] for 3s",
+        "manual": "https://fccid.io/2AKHJ-HD315/User-Manual/User-manual-6123973",
+        "model": "HD315"
+    },
+    {
+        "unit": "kb",
+        "bt": "press `BT1` or `BT2` (in the top right) for 3s",
+        "ghz": "press `esc`+`=`[1] for 3s",
+        "manual":"https://fccid.io/2AKHJ-HD246-T02/User-Manual/User-manual-5051012" ,
+        "model": "HD246-T02"
+    },
+    {
+        "unit": "kb",
+        "bt": "~",
+        "ghz": "press `esc`+`k`",
+        "manual": "https://fccid.io/2AKHJHW186-3/User-Manual/User-Manual-3878163",
+        "model": "HW186-3"
+    },
+    {
+        "unit": "m",
+        "bt": "cycle/toggle `MODE` to BT & press for 5s",
+        "ghz": "press `SCROLL`+`RIGHT` for 3s",
+        "manual": "https://office.iclever.com/storage/product/guide/27/17091140428182.pdf",
+        "model": "MD165"
+    },
+    {
+        "unit": "m",
+        "bt": "~",
+        "ghz": "press `SCROLL`+`RIGHT` for 3s",
+        "manual": "https://fccid.io/2AKHJMW162/User-Manual/MW162-User-Manual-4141310",
+        "model": "MW162"
+    },
+    {
+        "unit": "m",
+        "bt": "cycle/toggle `MODE` to BT & press for 5s",
+        "ghz": "press `SCROLL`+`RIGHT` for 3s",
+        "manual": "https://office.iclever.com/storage/product/guide/28/17091145593375.pdf",
+        "model": "MD179"
+    },
+    {
+        "unit": "kb",
+        "bt": "~",
+        "ghz": "turn on and insert dongle within 5s",
+        "manual": "https://fccid.io/2AKHJ-K530/User-Manual/User-Manual-5258309",
+        "model": "K530"
+    },
+    {
+        "unit": "kb",
+        "bt": "~",
+        "ghz": "press `esc`+`k`",
+        "manual": "https://fccid.io/2AC9LHW156/User-Manual/15-HW156-K-UserMan-pdf-2951661",
+        "model": "HW156"
+    },
+    {
+        "unit": "kb",
+        "bt": "~",
+        "ghz": "press `esc`+`k`",
+        "manual": "https://fccid.io/2AKHJHW197-3-L/Users-Manual/User-Manual-3925141",
+        "model": "HW197-3"
+    },
+    {
+        "unit": "m",
+        "bt": "cycle/toggle `MODE` to BT & press for 5s",
+        "ghz": "press `SCROLL`+`RIGHT` for 3s",
+        "manual": "https://office.iclever.com/storage/product/guide/43/17091140943376.pdf",
+        "model": "MD172"
+    },
+    {
+        "unit": "m",
+        "bt": "press `SCROLL`+`RIGHT` till light flashes blue",
+        "ghz": "press `SCROLL`+`RIGHT` till light flashes red",
+        "manual": "https://fccid.io/2AKHJ-MD156/Users-Manual/User-Manual-3540032",
+        "model": "MD156"
+    },
+    {
+        "unit": "kb",
+        "bt": "~",
+        "ghz": "press `esc`+`q`",
+        "manual": "https://fccid.io/2AKHJHW155/Users-Manual/User-Manual-3952730",
+        "model": "HW155"
+    },
+    {
+        "unit": "kb",
+        "bt": "~",
+        "ghz": "press `esc`+`q`",
+        "manual": "https://fccid.io/2AKHJHW197-G/Users-Manual/User-Manual-3973332",
+        "model": "HW197"
+    },
+    {
+        "unit": "kb",
+        "bt": "~",
+        "ghz": "press `esc`+`q`",
+        "manual": "https://fccid.io/2AKHJHW197C-G/Users-Manual/User-Manual-3981048",
+        "model": "HW197c"
+    },
+    {
+        "unit": "kb",
+        "bt": "~",
+        "ghz": "press `esc`+`q`",
+        "manual": "https://fccid.io/2AKHJHW194-3/Users-Manual/User-Manual-3989791",
+        "model": "HW194-3"
+    },
+    {
+        "unit": "kb",
+        "bt": "~",
+        "ghz": "press `esc`+`q`",
+        "manual": "https://fccid.io/2AKHJHW126/Users-Manual/User-Manual-3995804",
+        "model": "HW126"
+    },
+    {
+        "unit": "m",
+        "bt": "cycle/toggle `MODE` to BT & press for 5s",
+        "ghz": "press `SCROLL`+`RIGHT` for 3s",
+        "manual": "https://fccid.io/2AKHJ-MD360/Users-Manual/User-manual-6939524",
+        "model": "MD360"
+    }
+]
